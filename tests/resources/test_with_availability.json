@@ -1,0 +1,2026 @@
+{
+  "cmsDocId": "2324786",
+  "title": "Kies je moment | AH.nl",
+  "_meta": {
+    "metaTags": {
+      "items": [
+        {
+          "name": "member_type",
+          "content": "onbekend"
+        }
+      ],
+      "label": "metaTags"
+    },
+    "dataLayerUser": {
+      "label": "dataLayerUser",
+      "ST": "3"
+    },
+    "checkout": {
+      "step": 2,
+      "option": "AH Bezorgservice",
+      "label": "checkout"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/service/rest/kies-moment/bezorgen/1000XX"
+    }
+  },
+  "_embedded": {
+    "lanes": [
+      {
+        "id": "index_0",
+        "classDefinition": "Header",
+        "type": "Lane",
+        "_links": {
+          "self": {
+            "href": "/service/rest/kies-moment/bezorgen/1000XX/subresource/index_0"
+          }
+        },
+        "_embedded": {
+          "items": [
+            {
+              "title": "Mijn lijst",
+              "reopenedOrder": false,
+              "resourceType": "OrderList",
+              "type": "OrderHeaderItem",
+              "cancel": {
+                "title": "Stoppen met bestellen",
+                "link": {
+                  "href": "/mijnlijst"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "index_1",
+        "type": "Lane",
+        "_links": {
+          "self": {
+            "href": "/service/rest/kies-moment/bezorgen/1000XX/subresource/index_1"
+          }
+        },
+        "_embedded": {
+          "items": [
+            {
+              "resourceType": "Widget",
+              "type": "WizardItem",
+              "_embedded": {
+                "items": [
+                  {
+                    "active": true,
+                    "text": {
+                      "body": "Moment kiezen"
+                    }
+                  },
+                  {
+                    "active": false,
+                    "text": {
+                      "body": "Boodschappen doen"
+                    }
+                  },
+                  {
+                    "active": false,
+                    "text": {
+                      "body": "Bevestigen"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "index_2",
+        "type": "Lane",
+        "_links": {
+          "self": {
+            "href": "/service/rest/kies-moment/bezorgen/1000XX/subresource/index_2"
+          }
+        },
+        "_embedded": {
+          "items": [
+            {
+              "ordered": true,
+              "style": "none",
+              "itemMargin": false,
+              "resourceType": "OrderList",
+              "type": "OrderMethodItem",
+              "_embedded": {
+                "items": [
+                  {
+                    "navItem": {
+                      "title": "AH Bezorgservice",
+                      "shortTitle": "AH Bezorgservice",
+                      "link": {
+                        "href": "/kies-moment/bezorgen"
+                      }
+                    },
+                    "highlight": true,
+                    "active": true,
+                    "id": "bezorgen",
+                    "addresses": [
+                      {
+                        "id": "1000XX",
+                        "address": "SomeStraat 1000 XX",
+                        "active": true,
+                        "temporary": false,
+                        "navItem": {
+                          "title": "Kies 1000XX",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX"
+                          }
+                        }
+                      }
+                    ],
+                    "disabled": false,
+                    "obtainmentMethod": "DELIVERY",
+                    "editable": true,
+                    "canSpecifyTemporaryAddress": false
+                  },
+                  {
+                    "navItem": {
+                      "title": "AH Pick Up Point",
+                      "shortTitle": "AH Pick Up Point",
+                      "link": {
+                        "href": "/kies-moment/ophalen"
+                      }
+                    },
+                    "highlight": false,
+                    "active": false,
+                    "id": "ophalen",
+                    "addresses": [],
+                    "disabled": false,
+                    "obtainmentMethod": "PICKUP",
+                    "editable": true,
+                    "canSpecifyTemporaryAddress": false
+                  },
+                  {
+                    "navItem": {
+                      "title": "AH Winkel",
+                      "shortTitle": "AH Winkel",
+                      "link": {
+                        "href": "/kies-moment/ophalen-winkel"
+                      }
+                    },
+                    "highlight": false,
+                    "active": false,
+                    "id": "ophalen-winkel",
+                    "addresses": [],
+                    "notification": {
+                      "title": "Alléén mogelijk bij Allerhande Box Specials",
+                      "body": "Ophalen in je AH winkel is <strong>alléén</strong> mogelijk voor Allerhande Box Specials, zoals de Kerstbox of Paasbox. Momenteel is er geen Allerhande Box Special te koop. De wekelijkse Allerhande Boxen zijn alleen te bestellen voor thuisbezorgen of Pick Up Point. Klik \"Annuleer\" en maak een andere keuze."
+                    },
+                    "disabled": false,
+                    "obtainmentMethod": "IN_STORE_PICK",
+                    "editable": true,
+                    "canSpecifyTemporaryAddress": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "index_3",
+        "type": "LegendLane",
+        "_links": {
+          "self": {
+            "href": "/service/rest/kies-moment/bezorgen/1000XX/subresource/index_3"
+          }
+        },
+        "_embedded": {
+          "items": [
+            {
+              "resourceType": "OrderList",
+              "type": "DeliveryDateSelector",
+              "_embedded": {
+                "deliveryDates": [
+                  {
+                    "date": "2020-05-24",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "value": 6.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-27/18/ODk2OA=="
+                          }
+                        },
+                        "bdp": 75.0,
+                        "dl": 50
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-27/18/ODk2OA=="
+                          }
+                        },
+                        "bdp": 75.0,
+                        "dl": 50
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-05-26",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-05-27",
+                    "value": 2.95,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "14:00",
+                        "to": "21:00",
+                        "value": 2.95,
+                        "originalValue": 2.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1J/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 61.1,
+                        "dl": 584
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": true
+                  },
+                  {
+                    "date": "2020-05-28",
+                    "value": 2.5,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.5,
+                        "dl": -1
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/14/ODk2OA=="
+                          }
+                        },
+                        "bdp": 54.0,
+                        "dl": 92
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/18/ODk2OA=="
+                          }
+                        },
+                        "bdp": 61.0,
+                        "dl": 78
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "value": 4.95,
+                        "originalValue": 4.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1J/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 44.2,
+                        "dl": 726
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/19/ODk2OA=="
+                          }
+                        },
+                        "bdp": 37.0,
+                        "dl": 126
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1A/ODk2OA=="
+                          }
+                        },
+                        "bdp": 51.5,
+                        "dl": 97
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "value": 4.95,
+                        "originalValue": 4.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1K/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 56.2,
+                        "dl": 350
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1B/ODk2OA=="
+                          }
+                        },
+                        "bdp": 56.0,
+                        "dl": 88
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1C/ODk2OA=="
+                          }
+                        },
+                        "bdp": 17.5,
+                        "dl": 165
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-28/1D/ODk2OA=="
+                          }
+                        },
+                        "bdp": 5.5,
+                        "dl": 189
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-05-29",
+                    "value": 7.95,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1J/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 35.3,
+                        "dl": 841
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/19/ODk2OA=="
+                          }
+                        },
+                        "bdp": 59.0,
+                        "dl": 82
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1A/ODk2OA=="
+                          }
+                        },
+                        "bdp": 66.5,
+                        "dl": 67
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1K/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 38.4,
+                        "dl": 493
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1B/ODk2OA=="
+                          }
+                        },
+                        "bdp": 53.0,
+                        "dl": 94
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "value": 8.95,
+                        "originalValue": 8.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1C/ODk2OA=="
+                          }
+                        },
+                        "bdp": 15.0,
+                        "dl": 170
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-29/1D/ODk2OA=="
+                          }
+                        },
+                        "bdp": 7.5,
+                        "dl": 185
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-05-30",
+                    "value": 2.5,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/18/ODk2OA=="
+                          }
+                        },
+                        "bdp": 93.0,
+                        "dl": 14
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "value": 2.5,
+                        "originalValue": 2.5,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1J/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 65.7,
+                        "dl": 515
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "value": 6.95,
+                        "originalValue": 6.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/19/ODk2OA=="
+                          }
+                        },
+                        "bdp": 36.5,
+                        "dl": 127
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "value": 5.95,
+                        "originalValue": 5.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1A/ODk2OA=="
+                          }
+                        },
+                        "bdp": 29.0,
+                        "dl": 142
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "value": 2.5,
+                        "originalValue": 2.5,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1K/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 47.9,
+                        "dl": 417
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "value": 4.95,
+                        "originalValue": 4.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1B/ODk2OA=="
+                          }
+                        },
+                        "bdp": 19.5,
+                        "dl": 161
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "value": 4.95,
+                        "originalValue": 4.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1C/ODk2OA=="
+                          }
+                        },
+                        "bdp": 5.0,
+                        "dl": 190
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "value": 3.95,
+                        "originalValue": 3.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-30/1D/ODk2OA=="
+                          }
+                        },
+                        "bdp": 14.0,
+                        "dl": 172
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-05-31",
+                    "value": 5.95,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "12:00",
+                        "to": "15:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-31/1M/ODk2OA=="
+                          }
+                        },
+                        "bdp": 91.2,
+                        "dl": 29
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "20:00",
+                        "value": 5.95,
+                        "originalValue": 5.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-31/1R/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 54.6,
+                        "dl": 1135
+                      },
+                      {
+                        "from": "15:00",
+                        "to": "18:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-31/1N/ODk2OA=="
+                          }
+                        },
+                        "bdp": 77.3,
+                        "dl": 75
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "value": 9.95,
+                        "originalValue": 9.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-05-31/1P/ODk2OA=="
+                          }
+                        },
+                        "bdp": 86.8,
+                        "dl": 29
+                      }
+                    ],
+                    "notification": "Let op! Onze bezorgblokken raken snel vol. Kies snel je moment.",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-01",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-02",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-03",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-04",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-05",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-06",
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "07:00",
+                        "to": "08:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "10:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "08:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "09:00",
+                        "to": "11:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "10:00",
+                        "to": "12:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "11:00",
+                        "to": "13:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "14:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "18:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "16:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "17:00",
+                        "to": "19:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "eco": true,
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "19:00",
+                        "to": "21:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "20:00",
+                        "to": "22:00",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      },
+                      {
+                        "from": "21:00",
+                        "to": "22:30",
+                        "state": "full",
+                        "bdp": 100.0,
+                        "dl": 0
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  },
+                  {
+                    "date": "2020-06-07",
+                    "value": 5.95,
+                    "deliveryTimeSlots": [
+                      {
+                        "from": "12:00",
+                        "to": "15:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-06-07/1M/ODk2OA=="
+                          }
+                        },
+                        "bdp": 99.6,
+                        "dl": 1
+                      },
+                      {
+                        "from": "12:00",
+                        "to": "20:00",
+                        "value": 5.95,
+                        "originalValue": 5.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-06-07/1R/ODk2OA=="
+                          }
+                        },
+                        "eco": true,
+                        "bdp": 25.0,
+                        "dl": 1313
+                      },
+                      {
+                        "from": "15:00",
+                        "to": "18:00",
+                        "value": 7.95,
+                        "originalValue": 7.95,
+                        "state": "selectable",
+                        "navItem": {
+                          "title": "order-new",
+                          "link": {
+                            "href": "/kies-moment/bezorgen/1000XX/2020-06-07/1N/ODk2OA=="
+                          }
+                        },
+                        "bdp": 79.6,
+                        "dl": 46
+                      },
+                      {
+                        "from": "18:00",
+                        "to": "20:00",
+                        "state": "full",
+                        "bdp": 100.7,
+                        "dl": -1
+                      }
+                    ],
+                    "notification": "",
+                    "default": false
+                  }
+                ]
+              }
+            },
+            {
+              "resourceType": "OrderList",
+              "type": "DeliveryTimeSelector",
+              "_embedded": {
+                "deliveryTimeSlots": [
+                  {
+                    "from": "07:00",
+                    "to": "08:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "08:00",
+                    "to": "10:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "08:00",
+                    "to": "14:00",
+                    "state": "full",
+                    "eco": true,
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "09:00",
+                    "to": "11:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "10:00",
+                    "to": "12:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "11:00",
+                    "to": "13:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "12:00",
+                    "to": "14:00",
+                    "state": "full",
+                    "bdp": 100.0,
+                    "dl": 0
+                  },
+                  {
+                    "from": "16:00",
+                    "to": "18:00",
+                    "value": 5.95,
+                    "originalValue": 5.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/18/ODk2OA=="
+                      }
+                    },
+                    "bdp": 75.0,
+                    "dl": 50
+                  },
+                  {
+                    "from": "16:00",
+                    "to": "21:00",
+                    "value": 2.95,
+                    "originalValue": 2.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1J/ODk2OA=="
+                      }
+                    },
+                    "eco": true,
+                    "bdp": 61.1,
+                    "dl": 584
+                  },
+                  {
+                    "from": "17:00",
+                    "to": "19:00",
+                    "value": 5.95,
+                    "originalValue": 5.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/19/ODk2OA=="
+                      }
+                    },
+                    "bdp": 33.5,
+                    "dl": 133
+                  },
+                  {
+                    "from": "18:00",
+                    "to": "20:00",
+                    "value": 7.95,
+                    "originalValue": 7.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1A/ODk2OA=="
+                      }
+                    },
+                    "bdp": 44.0,
+                    "dl": 112
+                  },
+                  {
+                    "from": "18:00",
+                    "to": "22:00",
+                    "value": 3.95,
+                    "originalValue": 3.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1K/ODk2OA=="
+                      }
+                    },
+                    "eco": true,
+                    "bdp": 62.9,
+                    "dl": 297
+                  },
+                  {
+                    "from": "19:00",
+                    "to": "21:00",
+                    "value": 7.95,
+                    "originalValue": 7.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1B/ODk2OA=="
+                      }
+                    },
+                    "bdp": 40.0,
+                    "dl": 120
+                  },
+                  {
+                    "from": "20:00",
+                    "to": "22:00",
+                    "value": 7.95,
+                    "originalValue": 7.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1C/ODk2OA=="
+                      }
+                    },
+                    "bdp": 11.0,
+                    "dl": 178
+                  },
+                  {
+                    "from": "21:00",
+                    "to": "22:30",
+                    "value": 6.95,
+                    "originalValue": 6.95,
+                    "state": "selectable",
+                    "navItem": {
+                      "title": "order-new",
+                      "link": {
+                        "href": "/kies-moment/bezorgen/1000XX/2020-05-27/1D/ODk2OA=="
+                      }
+                    },
+                    "bdp": 7.5,
+                    "dl": 185
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "classDefinition": "Centered",
+        "type": "FlexLane",
+        "_links": {
+          "self": {
+            "href": "/service/rest/kies-moment/bezorgen/1000XX"
+          }
+        },
+        "_embedded": {
+          "items": [
+            {
+              "orderCaptionType": "SMS",
+              "title": "Nooit meer wachten",
+              "text": "Op de bezorgdag vind je de verwachte bezorgtijd op onze website. En via de app zie je de bezorgtijd op 60 minuten nauwkeurig.",
+              "resourceType": "OrderList",
+              "type": "OrderCaptionItem"
+            },
+            {
+              "orderCaptionType": "ACTION",
+              "title": "Slim boodschappen doen",
+              "text": "Elke week weer nieuwe acties voor gratis bezorging.",
+              "resourceType": "OrderList",
+              "type": "OrderCaptionItem"
+            },
+            {
+              "orderCaptionType": "ECO",
+              "title": "Alle beetjes helpen",
+              "text": "Met een groen blok kunnen we je bezorging efficiënter plannen en zijn minder kilometers nodig.",
+              "resourceType": "OrderList",
+              "type": "OrderCaptionItem"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
